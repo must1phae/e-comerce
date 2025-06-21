@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&family=Exo:wght@400;700&family=Barlow:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+}
+
+body {
+    background-color: black;
+    color: #F2F2F2;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    color: #FF007F;
+}
+
+h2 {
+    color: #8A2BE2;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.nav-bar {
+    padding: 0;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    height: 8vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    color: #FF007F;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #FF007F;
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+.logo h1:hover {
+    transform: scale(1.05);
+}
+
+
+.logo .fa {
+
+    color: #FF007F;
+    font-size: 25px;
+}
+
+
+.bar ul {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: 15px;
+    list-style: none;
+    margin-top: 10px;
+}
+.bar ul .btn{
+    border:1px solid #8A2BE2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #240d3a;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0 0 5px #8A2BE2;
+    margin-left:15px ;
+}
+.bar ul .btn:hover{
+    color: #8A2BE2;
+}
+
+.chercher input[type=text] {
+
+    margin-top: 9px;
+    border: 1px solid #FF007F;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 4px;
+    width: 300px;
+    float: left;
+    background: black;
+
+}
+
+div button {
+
+    padding: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-left: none;
+    cursor: pointer;
+}
+
+div button:hover {
+    color: #FF007F;
+
+}
+
+.chercher input[placeholder="Search.."] {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+}
+
+.chercher {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+
+}
+section h1 {
+    color: #FF007F;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow:0 0 10px #8A2BE2;
+    
+}
+.product {
+    display: flex;
+    
+     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+     
+}
+ .product .product1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width:200Px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:1px solid #8A2BE2;
+    box-shadow:0 0 9Px #8A2BE2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+
+    
+ }
+ .product .product1 img{
+    width: 200Px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+     
+    border-radius: 10px;
+   
+    
+     
+ }
+ .product .product1 p.description{
+     
+    
+    display: none;
+   
+    
+}
+.product .product1:hover p.description{
+    display: flex;
+    position: absolute;
+    top: 0;
+     
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    border-radius: 30px;
+    padding: 2px;
+
+    
+}
+article{
+    background:#141627;
+    width: 98%;
+     margin-left: auto;
+     margin-right: auto;
+     height: 500px;
+     margin-bottom: 50px;    
+     margin-top: 0;
+     padding: auto;
+
+
+
+
+    }
